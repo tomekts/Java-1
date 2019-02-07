@@ -14,7 +14,6 @@ public class Obudowa {
     for(int i=0;i<id;i++){
      buda[i]= new Case();
     }
-
     for (int i=1; i<=id; i++) {
         System.out.printf("Podaj Wysokość obudowy NR"+i+" ");
         buda[i-1].haight=in.nextFloat();
