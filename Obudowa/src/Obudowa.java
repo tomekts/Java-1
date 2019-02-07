@@ -37,6 +37,7 @@ public class Obudowa {
             System.out.print("Ktora obudowe chcesz wyswietlic, Podaj jej nr: ");
             id=in.nextInt();
         }
+		
         buda[id-1].dismision();
 
 
